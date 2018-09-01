@@ -4,17 +4,25 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
     <style>
-      div {
+      a {
+        color: red;
+      }
+      #exec-bio {
+        background-color: lightgray;
+      }
+      #pumpkin {
+        color: orange;
+      }
+      .bio-box {
         border: 1px solid black;
       }
-      div a {
+      .bio-box a {
         color: green;
       }
-      li a {
-        border: 1px solid black;
-        color: blue;
+      .clr-azure {
+        background-color: azure;
       }
-    </style>
+  </style>
   </head>
   <body>
     <h1>I'm an h1</h1>
@@ -23,23 +31,23 @@
         <a href="http://example.com/">Link</a>
       </li>
       <li>
-        <a href="http://example.com/">Link</a>
+        <a id="pumpkin" href="http://example.com/">Link</a>
       </li>
       <li>
         <a href="http://example.com/">Link</a>
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div>
+    <div id="exec-bio" class="clr-azure" class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="clr-azure" class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="clr-azure" class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="clr-azure" class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
   </body>
