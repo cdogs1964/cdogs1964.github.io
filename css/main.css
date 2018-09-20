@@ -647,3 +647,9 @@ h4 {
 .footer .drop-trigger {
   padding-right: 0;
 }
+
+/* MOBILE MENU */
+.mobile-menu-check,
+.show-mobile-menu {
+  display: none;
+}
